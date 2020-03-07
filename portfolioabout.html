@@ -1,0 +1,347 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>ABOUT ME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="portfolioabout.css" type="text/css" />
+    <link rel="stylesheet" href="portfolioaboutresp.css" type="text/css" />
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script>
+        $(document).ready(function () {
+            $(".colorchanger").click(function () {
+                $(".pallete").toggle();
+            });
+        });
+        function blue() {
+            document.getElementById("me").style.color = "#2196f3";
+            document.getElementById("border").style.borderColor = "#2196f3";
+            document.getElementById("bg").style.backgroundColor = "#2196f3";
+            var x = document.getElementsByClassName("progress-bar");
+  var i;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = "#2196f3";
+            }
+                    var y = document.getElementsByClassName("border-left");
+  var f;
+  for ( f = 0; f < y.length; f++) {
+    y[f].style.borderLeftColor = "#2196f3";
+  }
+           
+            
+
+
+        }
+        function brown() {
+            document.getElementById("me").style.color = "#daa520";
+            document.getElementById("border").style.borderColor = "#daa520";
+            document.getElementById("bg").style.backgroundColor = "#daa520";
+                 var x = document.getElementsByClassName("progress-bar");
+  var i;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = "#daa520";
+  }
+          
+            
+
+
+        }
+        function green() {
+            document.getElementById("me").style.color = "#72b626";
+            document.getElementById("border").style.borderColor = "#72b626";
+            document.getElementById("bg").style.backgroundColor = "#72b626";
+                 var x = document.getElementsByClassName("progress-bar");
+  var i;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = "#72b626";
+  }
+           
+            
+
+
+        }
+        function violet() {
+            document.getElementById("me").style.color = "#ff00ff";
+            document.getElementById("border").style.borderColor = "#ff00ff";
+            document.getElementById("bg").style.backgroundColor = "#ff00ff";
+                 var x = document.getElementsByClassName("progress-bar");
+  var i;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = "#ff00ff";
+  }
+            
+            
+
+
+        }
+        function red() {
+            document.getElementById("me").style.color = "#dc3545";
+            document.getElementById("border").style.borderColor = "#dc3545";
+            document.getElementById("bg").style.backgroundColor = "#dc3545";
+                 var x = document.getElementsByClassName("progress-bar");
+  var i;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = "#dc3545";
+  }
+            
+            
+
+
+        }
+        function lightred() {
+            document.getElementById("me").style.color = "#ff5d56";
+            document.getElementById("border").style.borderColor = "#ff5d56";
+            document.getElementById("bg").style.backgroundColor = "#ff5d56";
+                 var x = document.getElementsByClassName("progress-bar");
+  var i;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = "#ff5d56";
+  }
+            
+            
+
+
+        }
+        function orange() {
+            document.getElementById("me").style.color = "#ffb400";
+            document.getElementById("border").style.borderColor = "#ffb400";
+            document.getElementById("bg").style.backgroundColor = "#ffb400";
+                 var x = document.getElementsByClassName("progress-bar");
+  var i;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = "#ffb400";
+  }
+            
+            
+
+
+        }
+        function lightgreen() {
+            document.getElementById("me").style.borderColor = "#9acd32";
+            document.getElementById("border").style.color = "#9acd32";
+            document.getElementById("bg").style.backgroundColor = "#9acd32";
+                 var x = document.getElementsByClassName("progress-bar");
+  var i;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = "#9acd32";
+  }
+            
+            
+
+
+        }
+    </script>
+
+
+
+
+</head>
+<body>
+    <span class="colorchanger"><i class="fa fa-cog fa-spin"></i></span>
+    <div class="pallete">
+        <h4 style="color:#333;font-size:15px;padding: 5px 0;margin: 0 0 10px;">STYLE SWITCHER</h4>
+        <hr style="color:#555;">
+        <ul style="list-style-type: none;display;padding: 0;">
+            <li><img onclick="blue()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/blue.png"></li>
+            <li><img onclick="brown()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/goldenrod.png"></li>
+            <li><img onclick="green()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/green.png"></li>
+            <li><img onclick="violet()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/magenta.png"></li>
+            <li><img onclick="red()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/orange.png"></li>
+            <li><img onclick="lightred()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/red.png"></li>
+            <li><img onclick="orange()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/yellow.png"></li>
+            <li><img onclick="lightgreen()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/yellowgreen.png"></li>
+        </ul>
+    </div>
+
+
+    <header class="mx-auto">
+        <h2 style="color:#555;font-weight:900;font-size:55px;margin-bottom:15px;">ABOUT <span id="me" style="color:#72b626;">ME</span></h2>
+        <span style="color:#555;font-size:22px;margin:20px 0px 0px;">I DESIGN AND CODE BEAUTIFUL THINGS, AND I LOVE WHAT I DO</span>
+
+    </header>
+
+    <section class="main-info mx-auto">
+        <div class="big-pic ">
+            <div id="border"><img src="https://scontent.fgyd8-1.fna.fbcdn.net/v/t1.0-9/66778504_1111019879108765_5051242703895920640_n.jpg?_nc_cat=110&_nc_sid=7aed08&_nc_ohc=dvUB8D8Hg8cAX91SIjW&_nc_ht=scontent.fgyd8-1.fna&oh=b5864c60d078be0fb823c599f87e70c9&oe=5EF8A14F" /></div>
+
+        </div><div class="full-info">
+            <div class="info">
+                <ul style="margin-right:100px;">
+                    <li>First Name<span> Minira</span></li>
+                    <li>Last Name<span>Axundova</span></li>
+                    <li>Birthdate<span>19 february 2001</span></li>
+                    <li>Nationality<span>Azerbaijani</span></li>
+                    <li>Experience<span>1 year</span></li>
+                    <li>Address<span>Baku</span></li>
+                </ul>
+                <ul>
+                    <li>Freelance<span>Availlable</span></li>
+                    <li>Language<span>English,Swedish</span></li>
+                    <li>Phone<span>0708572619</span></li>
+                    <li>Email<span>miss.minira@mail.ru</span></li>
+                    <li>Instagram<span>Minira Axundova</span></li>
+                    <li>LinkedIn<span>Minira Axundova</span></li>
+
+                </ul>
+
+            </div>
+            <a id="bg" style="background-color: #72b626;
+        text-decoration:none;
+        padding: 10px 33px;
+      width:45%;
+      font-weight:600;
+        color: #fff;
+        font-size: 15px;
+        border-radius: 25px;
+       
+        " href=""><i class='fas fa-download' style='font-size:15px;color:#fff;margin-right:15px;'></i>DOWNLOAD MY CV</a>
+        </div>
+    </section>
+    <hr class="mx-auto" style="width:80%;color:#eee;margin:5% 0;" />
+    <section class="experience mx-auto">
+        <div class="row">
+            <div class="col-lg-6">
+                <span style="  margin-bottom:50px;
+    font-size:23px;
+    color:#555;font-weight:600;">EXPERIENCE</span>
+                <ul style="list-style-type:none;">
+                    <li class="border-left">
+                        <span style="margin-left:5%;"><i class='far fa-calendar-alt' style='font-size:15px;color:#555;'></i>2017 - 2019</span>
+                        <p style="font-size:16px;margin-top:10px;margin-left:5%;">WEB DESIGNER<span style="font-size:16px;font-weight:650;"><i class='fas fa-minus' style='font-size:10px;color:#555;margin:0 7px 3px;'></i> ENVATO</span></p>
+                        <p style="color:#555;font-size:14px;margin-top:10px;margin-left:5%;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet diam nonummy.</p>
+                    </li>
+                    <li class="border-left">
+                        <span style="margin-left:5%;">  <i class='far fa-calendar-alt' style='font-size:15px;color:#555;'></i>2014 - 2017</span>
+                        <p style="font-size:16px;margin-top:10px;margin-left:5%;">WEB DEVELOPER<span style="font-size:16px;font-weight:650;"><i class='fas fa-minus' style='font-size:10px;color:#555;margin:0 7px 3px;'></i>TWITTER</span></p>
+                        <p style="color:#555;font-size:14px;margin-top:10px;margin-left:5%;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet diam nonummy.</p>
+                    </li>
+                    <li class="border-left">
+                        <span style="margin-left:5%;"> <i class='far fa-calendar-alt' style='font-size:15px;color:#555;'></i>2010 - 2014</span>
+                        <p style="margin-left:5%;font-size:16px;margin-top:10px;">CONSULTANT<span style="font-size:16px;font-weight:650;"><i class='fas fa-minus' style='font-size:10px;color:#555;margin:0 7px 3px;'></i> GOOGLE</span></p>
+                        <p style="margin-left:5%;color:#555;font-size:14px;margin-top:10px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet diam nonummy.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <span style="  margin-bottom:50px;
+    font-size:23px;
+    color:#555;font-weight:600;">EDUCATION</span>
+                <ul style="list-style-type:none;">
+                    <li class="border-left">
+                        <span style="margin-left:5%;">    <i class='far fa-calendar-alt' style='font-size:15px;color:#555;'></i>2007 - 2010</span>
+                        <p style="margin-left:5%;font-size:16px;margin-top:10px;">ENGINEERING DEGREE <span style="font-size:16px;font-weight:650;"><i class='fas fa-minus' style='font-size:10px;color:#555;margin:0 7px 3px;'></i> ISTANBUL UNIVERSITY</span></p>
+                        <p style="margin-left:5%;color:#555;font-size:14px;margin-top:10px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet diam nonummy.</p>
+                    </li>
+                    <li class="border-left">
+                        <span style="margin-left:5%;">  <i class='far fa-calendar-alt' style='font-size:15px;color:#555;'></i>2005 - 2007</span>
+                        <p style="margin-left:5%;font-size:16px;margin-top:10px;">MASTERS DEGREE <span style="font-size:16px;font-weight:650;"><i class='fas fa-minus' style='font-size:10px;color:#555;margin:0 7px 3px;'></i> PARIS UNIVERSITY</span></p>
+                        <p style="margin-left:5%;color:#555;font-size:14px;margin-top:10px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet diam nonummy.</p>
+                    </li>
+                    <li class="border-left">
+                        <span style="margin-left:5%;">   <i class='far fa-calendar-alt' style='font-size:15px;color:#555;'></i>2001 - 2005</span>
+                        <p style="margin-left:5%;font-size:16px;margin-top:10px;">BACHELOR DEGREE<span style="font-size:16px;font-weight:650;"><i class='fas fa-minus' style='font-size:10px;color:#555;margin:0 7px 3px;'></i>MOSCOW HIGH SCHOOL</span></p>
+                        <p style="margin-left:5%;color:#555;font-size:14px;margin-top:10px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet diam nonummy.</p>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <section class="skills mx-auto">
+        <span style=" font-size:23px;color:#555;font-weight:600;">SKILLS</span>
+        <div class="grid-container">
+            <div class="grid-item">
+                <span class="skill-text">html</span>
+                <div id="talk-bubble-1"><img style="width:42px;" src="conversation.svg" /><span id="tb-text-1">80%</span></div>
+                <div class="progress" style="height: 1px;">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <span class="skill-text">javascript</span>
+                <div id="talk-bubble-2">
+                    <img style="width:42px;" src="conversation.svg" /><span id="tb-text-2">60%</span>
+                </div>
+                <div class="progress" style="height: 1px;">
+                    <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <span class="skill-text">css</span>
+                <div id="talk-bubble-3">  <img style="width:42px;" src="conversation.svg" /><span id="tb-text-3">75%</span></div>
+                <div class="progress" style="height: 1px;">
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <span class="skill-text">jquery</span>
+                <div id="talk-bubble-4">
+                    <img style="width:42px;" src="conversation.svg" /><span id="tb-text-4">65%</span>
+                </div>
+                <div class="progress" style="height: 1px;">
+                    <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <span class="skill-text">wordpress</span>
+                <div id="talk-bubble-5">
+                    <img style="width:42px;" src="conversation.svg" /><span id="tb-text-5">90%</span>
+                </div>
+                <div class="progress" style="height: 1px;">
+                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <span class="skill-text">angular.js</span>
+                <div id="talk-bubble-6">
+                    <img style="width:42px;" src="conversation.svg" /><span id="tb-text-6">85%</span>
+                </div>
+                <div class="progress" style="height: 1px;">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <span class="skill-text">illustrator</span>
+                <div id="talk-bubble-7">
+                    <img style="width:42px;" src="conversation.svg" /><span id="tb-text-7">60%</span>
+                </div>
+                <div class="progress" style="height: 1px;">
+                    <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <span class="skill-text">after effects</span>
+                <div id="talk-bubble-8">
+                    <img style="width:42px;" src="conversation.svg" /><span id="tb-text-8">75%</span>
+                </div>
+                <div class="progress" style="height: 1px;">
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <span class="skill-text">photoshop</span>
+                <div id="talk-bubble-9">
+                    <img style="width:42px;" src="conversation.svg" /><span id="tb-text-9">80%</span>
+                </div>
+
+                <div class="progress" style="height: 1px;">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+</body>
+</html>

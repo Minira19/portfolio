@@ -1,0 +1,279 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="blog.css" type="text/css" />
+    <link rel="stylesheet" href="blogresp.css" type="text/css" />
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>Blog</title>
+    <script>
+        $(document).ready(function(){
+  $(".colorchanger").click(function(){
+    $(".pallete").toggle();
+  });
+        });
+        function blue() {
+            document.getElementById("posts").style.color = "#2196f3";
+            document.getElementById("border").style.borderColor = "#2196f3";
+              document.getElementById("border").style.color = "#2196f3";
+             document.getElementById("icon").style.color = "#2196f3";
+
+             var x = document.getElementsByClassName("bg");
+  var i;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = "#2196f3";
+  }
+        
+          
+        }
+        function brown() {
+            document.getElementById("posts").style.color = "#daa520";
+             document.getElementById("border").style.borderColor = "#daa520";
+              document.getElementById("border").style.color = "#daa520";
+             document.getElementById("icon").style.color = "#daa520";
+                       var x = document.getElementsByClassName("bg");
+  var i;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = "#daa520";
+  }
+       
+              
+        }
+        function green() {
+            document.getElementById("posts").style.color = "#72b626";
+             document.getElementById("border").style.borderColor = "#72b626";
+              document.getElementById("border").style.color = "#72b626";
+             document.getElementById("icon").style.color = "#72b626";
+                       var x = document.getElementsByClassName("bg");
+  var i;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = "#72b626";
+  }
+         
+           
+        }
+        function violet() {
+            document.getElementById("posts").style.color = "#ff00ff";
+             document.getElementById("border").style.borderColor = "#ff00ff";
+              document.getElementById("border").style.color = "#ff00ff";
+             document.getElementById("icon").style.color = "#ff00ff";
+                     var x = document.getElementsByClassName("bg");
+  var i;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = "#ff00ff";
+  }
+            
+            
+        }
+        function red() {
+            document.getElementById("posts").style.color = "#dc3545";
+             document.getElementById("border").style.borderColor = "#dc3545";
+              document.getElementById("border").style.color = "#dc3545";
+             document.getElementById("icon").style.color = "#dc3545";
+                       var x = document.getElementsByClassName("bg");
+  var i;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = "#dc3545";
+  }
+         
+             
+        }
+        function lightred() {
+            document.getElementById("posts").style.color = "#ff5d56";
+             document.getElementById("border").style.borderColor = "#ff5d56";
+              document.getElementById("border").style.color = "#ff5d56";
+             document.getElementById("icon").style.color = "#ff5d56";
+              var x = document.getElementsByClassName("bg");
+  var i;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = "#ff5d56";
+  }
+           
+             
+        }
+        function orange() {
+            document.getElementById("posts").style.color = "#ffb400";
+             document.getElementById("border").style.borderColor = "#ffb400";
+              document.getElementById("border").style.color = "#ffb400";
+             document.getElementById("icon").style.color = "#ffb400";
+                        var x = document.getElementsByClassName("bg");
+  var i;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = "#ffb400";
+  }
+           
+             
+        }
+        function lightgreen() {
+             document.getElementById("border").style.borderColor = "#9acd32";
+              document.getElementById("border").style.color = "#9acd32";
+             document.getElementById("icon").style.color = "#9acd32";
+               document.getElementById("posts").style.color = "#9acd32";
+                       var x = document.getElementsByClassName("bg");
+  var i;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = "#9acd32";
+  }
+       
+             
+            }
+    </script>
+  
+   
+</head>
+<body>
+    <span class="colorchanger"><i class="fa fa-cog fa-spin"></i></span>
+<div class="pallete">
+        <h4 style="color:#333;font-size:15px;padding: 5px 0;margin: 0 0 10px;">STYLE SWITCHER</h4>
+        <hr style="color:#555;">
+        <ul style="list-style-type: none;display;padding: 0;">
+            <li><img onclick="blue()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/blue.png"></li>
+            <li><img onclick="brown()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/goldenrod.png"></li>
+            <li><img onclick="green()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/green.png"></li>
+            <li><img onclick="violet()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/magenta.png"></li>
+            <li><img onclick="red()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/orange.png"></li>
+            <li><img onclick="lightred()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/red.png"></li>
+            <li><img onclick="orange()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/yellow.png"></li>
+            <li><img onclick="lightgreen()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/yellowgreen.png"></li> </ul>
+    </div>
+
+
+
+
+
+
+    <header class="mx-auto">
+        <h2 style="color:#555;font-weight:900;font-size:55px;margin-bottom:15px;">LATEST <span id="posts" style="color:#72b626;">POSTS</span></h2>
+        <span style="color:#555;font-size:22px;margin:20px 0px 0px;">TIPS, INSIGHTS, AND BEST PRACTICES ABOUT WEB DESIGN AND DEVELOPPMENT</span>
+    </header>
+
+    <section class="cards mx-auto">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card" style="width: 540px;height:475px;margin-bottom: 50px;border:solid 1px transparent;outline:none;border-radius:4px;">
+                    <div class="img-increase">
+                        <img class="img-fluid" src="http://slimhamdi.net/istanbul/demos/img/blog/blog-post-1.jpg " alt="">
+                        <div class="date bg">
+                            <span>23 </span>
+                            <span>JUN</span>
+
+                        </div>
+
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">create a wordpress theme from scratch</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a class="bg" style="
+        text-decoration:none;
+        padding: 10px 33px;
+     font-weight: 600;
+    margin: 24px 0;
+    background-color: #72b626;
+        color: #fff;
+        font-size: 15px;
+        border-radius: 25px;
+        border: solid 1px transparent;" href="">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card" style="width: 540px;height:475px;margin-bottom: 50px;border:solid 1px transparent;outline:none;border-radius:4px;">
+                    <div class="img-increase">
+                        <img class="img-fluid" src="http://slimhamdi.net/istanbul/demos/img/blog/blog-post-2.jpg" alt="">
+                        <div class="date bg">
+                            <span>18</span>
+                            <span>AUG</span>
+
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Effective Marketing Strategy tips</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a class="bg" style="
+        text-decoration:none;
+        padding: 10px 33px;
+      font-weight: 600;
+    margin: 24px 0;
+    background-color: #72b626;
+        color: #fff;
+        font-size: 15px;
+        border-radius: 25px;
+        border: solid 1px transparent;" href="">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card" style="width: 540px;height:475px;margin-bottom: 50px;border:solid 1px transparent;outline:none;border-radius:4px;">
+                    <div class="img-increase">
+                        <img class="img-fluid" src="http://slimhamdi.net/istanbul/demos/img/blog/blog-post-3.jpg" alt="">
+                        <div class="date bg">
+                            <span>01</span>
+                            <span>MAR</span>
+
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">free psd and sketch ressouces</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a class="bg" style="
+        text-decoration:none;
+        padding: 10px 33px;
+      font-weight: 600;
+    margin: 24px 0;
+    background-color: #72b626;
+        color: #fff;
+        font-size: 15px;
+        border-radius: 25px;
+        border: solid 1px transparent;" href="">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card" style="width: 540px;height:475px;margin-bottom: 50px;border:solid 1px transparent;outline:none;border-radius:4px;">
+                    <div class="img-increase">
+                        <img class="img-fluid" src="http://slimhamdi.net/istanbul/demos/img/blog/blog-post-4.jpg" alt="">
+                        <div class="date bg">
+                            <span>01</span>
+                            <span>MAR</span>
+
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">How to become a successful freelancer</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a class="bg" style="
+        text-decoration:none;
+        padding: 10px 33px;
+     font-weight: 600;
+    margin: 24px 0;
+    background-color: #72b626;
+        color: #fff;
+        font-size: 15px;
+        border-radius: 25px;
+        border: solid 1px transparent;" href="">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section style="    text-align: center;
+    margin-bottom: 70px;">
+        <a id="border" style="  text-decoration:none;
+        background-color: transparent;
+        font-weight:500;
+        padding: 10px 33px;
+        color: #72b626;
+        font-size: 15px;
+        border-radius: 25px;
+        border: solid 1.5px #72b626;" href=""><i id="icon" class='fa fa-comments' style='font-size:15px;color:#72b626;margin-right:10px;'></i>ALL POSTS</a>
+    </section>
+
+</body>
+</html>

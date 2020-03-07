@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        .done{
+            background-color:pink;
+            color:#72b626;
+
+        }
+    </style>
+</head>
+<body>
+    <form><input type="text" id="todo" /><button onclick="addListClick()"  id="add"></button></form>
+    <ul>
+
+
+    </ul>
+    <script>
+
+        var btn = document.getElementById("add");
+        var input = document.getElementById("todo");
+        var ul = document.querySelector("ul");
+        var item = document.getElementsByTagName("li");
+        function inputLength() {
+             return input.value.length;
+        }
+        function createList() {
+            var li = document.createElement("li");
+            li.appendChild(document.createTextNode(input.value));
+            ul.appendChild(li);
+            input.value = " ";
+        }
+
+         
+        function addListClick() {
+            if (inputLength() > 0) {
+                createList();
+            }
+        }
+       
+       
+       
+    </script>
+</body>
+</html>

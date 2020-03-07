@@ -1,0 +1,34 @@
+﻿@media  (max-width:767px){
+
+    section {
+        display: block;
+    }
+}
+    @media  (min-width:768px) and (max-width:1024px){
+        .two-imputs {
+            display: block;
+        }
+
+        section {
+            margin: auto;
+            width: 90%;
+        }
+
+        .right-contact {
+            width: 55%;
+            margin-left: 5%;
+        }
+
+            .right-contact a {
+                width: 45%;
+            }
+
+        .contact-button {
+            width: 45%;
+        }
+
+        .fa-comments {
+            top: 39.6%;
+            left: 32%;
+        }
+    }

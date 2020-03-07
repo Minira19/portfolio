@@ -1,0 +1,276 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+}
+
+header{
+    padding:60px 0 54px;
+    text-align:center;
+    width:80%;
+    
+}
+.main-info{
+   
+    width:80%;
+    display:flex;
+}
+.info{
+    
+    display:flex;
+}
+ .info ul {
+        margin-top: 26px;
+    }
+.main-info ul{
+    list-style-type:none;
+}
+.info ul li{
+
+    font-size:16px;
+    margin:0 0 7px;
+    padding-bottom:21px;
+    color:#555;
+}
+.info ul li span{
+    font-weight:650;
+    margin-left:20px;
+}
+.border-left{
+    border-left:0;
+}
+.big-pic div {
+    height: 400px;
+    position: relative;
+    border: solid 6px #72b626; 
+    width: 400px;
+    left: 110px;
+    top: 25px;
+}
+    .big-pic div img {
+        width: 400px;
+        right: 30px;
+        bottom:30px;
+        position: absolute;
+    }
+.big-pic{
+    position:relative;
+    margin-right:15%;
+}
+.experience{
+    width:80%;
+}
+
+    .experience .row .col-lg-6 ul .border-left span i {
+        margin-right: 15px;
+    }
+    .experience .row .col-lg-6 ul .border-left span {
+        color: #555;
+        font-size: 13px;
+    }
+    .experience .row .col-lg-6 ul .border-left {
+        padding:32px 0 10px;
+        border-left:solid 1px #72b626;   
+    }
+    .experience .row .col-lg-6 ul{
+        margin-top:5%;
+    }
+.skills {
+    width: 80%;
+    margin: 3% 0;
+}
+.grid-container {
+    grid-column-gap: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.grid-item {
+    background-color: #fff;
+    border: 1px solid transparent;
+    padding: 20px 0px;
+}
+
+.progress-bar {
+    background-color: #72b626;
+}
+
+.skill-text {
+    display: block;
+    margin-bottom: 18px;
+    font-size: 16px;
+    color: #555;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.talkbubble {
+    font-weight:600;
+    left: 80px;
+    width: 46px;
+    height: 32px;
+    background: red;
+    position: relative;
+    border-radius: 5px;
+    text-align: center;
+    color: #72b626;
+    border: solid 1.5px #72b626;
+    bottom: -10px;
+    font-size: 14px;
+    background-color: #fff;
+}
+#talk-bubble-1 img{
+    
+    left: 75%;
+    position: relative;
+    z-index:2000;
+}
+
+
+#talk-bubble-2 img {
+    left: 58%;
+    position: relative;
+}
+#talk-bubble-3 img {
+    left: 73%;
+    position: relative;
+}
+#talk-bubble-4 img {
+    left: 62%;
+    position: relative;
+}
+#talk-bubble-5 img {
+    left: 85%;
+    position: relative;
+}
+#talk-bubble-6 img {
+    left: 81%;
+    position: relative;
+}
+#talk-bubble-7 img {
+    left: 54.5%;
+    position: relative;
+}
+#talk-bubble-8 img {
+    
+    left: 70%;
+    position: relative;
+}
+#talk-bubble-9 img {
+    left: 76%;
+    position: relative;
+}
+#tb-text-1 {
+    font-size: 14px;
+    color: #72b626;
+    position: absolute;
+    left: 30%;
+    font-weight: 600;
+   
+    margin-top: 5px;
+}
+#tb-text-2 {
+    font-size: 14px;
+    color: #72b626;
+    position: absolute;
+    left: 52.8%;
+    font-weight: 600;
+    margin-top: 5px;
+}
+#tb-text-3 {
+    font-size: 14px;
+    color: #72b626;
+    position: absolute;
+    left: 83.5%;
+    font-weight: 600;
+    margin-top: 5px;
+}
+#tb-text-4 {
+    font-size: 14px;
+    color: #72b626;
+    position: absolute;
+    left: 26.7%;
+    font-weight: 600;
+    margin-top: 5px;
+}
+#tb-text-5 {
+    font-size: 14px;
+    color: #72b626;
+    position: absolute;
+    left: 60%;
+    font-weight: 600;
+    margin-top: 5px;
+}
+#tb-text-6 {
+    font-size: 14px;
+    color: #72b626;
+    position: absolute;
+    left: 85.7%;
+    font-weight: 600;
+    margin-top: 5px;
+}
+#tb-text-7 {
+    font-size: 14px;
+    color: #72b626;
+    position: absolute;
+    left: 24.7%;
+    font-weight: 600;
+    margin-top: 5px;
+}
+#tb-text-8 {
+    font-size: 14px;
+    color: #72b626;
+    position: absolute;
+    left: 56%;
+    font-weight: 600;
+    margin-top: 5px;
+}
+#tb-text-9 {
+    font-size: 14px;
+    color: #72b626;
+    position: absolute;
+    left: 84.3%;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.colorchanger {
+    position: relative;
+    border: solid 1px #eee;
+    padding: 18px 10px 10px 10px;
+    border-radius: 4px;
+    left: 95%;
+    top: 50px;
+}
+
+    .colorchanger i {
+        font-size: 30px;
+    }
+
+.pallete ul li img {
+    cursor: pointer;
+    margin: 4px 2px;
+    width: 30px;
+    height: 30px;
+}
+
+.pallete ul li {
+    display: inline;
+}
+
+.pallete {
+    padding: 5px;
+    background-color: #fff;
+    width: 11%;
+    text-align: center;
+    font-weight: 600;
+    position: absolute;
+    border: solid 1px #eee;
+    top: 95px;
+    border-radius: 4px;
+    display: none;
+    left: 87.5%;
+}

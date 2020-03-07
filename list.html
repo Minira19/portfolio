@@ -1,0 +1,154 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        div.main {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-color: #D9D9D9;
+            padding: 3rem;
+        }
+
+        div > div {
+            display: flex;
+        }
+
+        div input {
+            padding: 15px 20px;
+            align-items: center;
+            text-transform: uppercase;
+            color: #181818;
+            border: none;
+            border-radius: 25px;
+            font-weight: 600;
+            width: 70%;
+        }
+
+        div button {
+            padding: 13px 25px;
+            border-radius: 5px;
+            background: #f7f8fd;
+            border: none;
+            margin-left: 15px;
+        }
+
+        div > ul {
+            display: block;
+            list-style-type: none;
+        }
+
+            div > ul li {
+                background: #f7f8fd;
+                color: #000;
+                border: solid 1px #c0c0c0;
+                padding: 1rem 2rem;
+                margin: 20px 0;
+                border-radius: 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+        .done {
+            background-color: #fff;
+            border: solid 1px rgb(0,200,0);
+            color: red;
+            text-transform: uppercase;
+        }
+
+        .deletee {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <div>
+            <input type="text" maxlength="250" id="todo" placeholder="Add to do list">
+            <button type="button" id="add" onclick="inputLength()">Add list </button>
+        </div>
+        <ul>
+        </ul>
+    </div>
+
+    <script>
+var btn=document.getElementById("add");
+var input=document.getElementById("todo");
+var ul=document.querySelector("ul");
+var item=document.getElementsByTagName("li");
+
+/* Asagidaki kicik funksiya bize inputun icinde yazdigimiz tekstin uzunlugunu qaytarir ve belelikle diger funksiyada sert qoyacagiq ki eger ki inputun icerisi bos deyilse o zaman list yaratsin eks halda mesaj qaytarsin */
+
+function inputLength(){
+ return input.value.length ;
+}
+
+/* Bu funksiya sayesinde li yaradib createTextNode vasitesile inputun icine yazilan texti yaratdigimiz listin icine yazmis oluruq ama hele ki funksiya sadece var asagida funksiyanin ise dusmesi ucun call back edeceyik */
+function createList(){
+/* createElement metodu vasitesile istenilen html elementini yarada bilirik */
+ var li=document.createElement("li");
+ li.appendChild(document.createTextNode(input.value));
+ /* appendChild elementin daxiline nelerinse elave edilmesi ucundur adindan da gorunduyu kimi */
+ ul.appendChild(li);
+ /* inputun icindekini goturub list yaratdiqdan sonra inputun ici temizlensin deye value olaraq bosluq veririk */
+ input.value=" ";
+
+ /* createList funksiyasinin icinde acdigimiz bu funksiya sayesinde li -lere click edende onu done kimi gostermesi ucun funksiya yazdiq. classlist.toggle isletmeyi bilirsiz.asagidaki ise addEventListener olan , inline event isletmeden elementin ozunu goturerek ona yeni bir event elave etmek ucun metoddur moterizede birinci hissesinde event novu yazilir meselen click dbclick onmouseover ve s ikinci terefde ise funksiyanin tekce adi ve dirnaqlar olmadan */
+ function done(){
+  li.classList.toggle("done");
+ }
+
+ li.addEventListener("click",done);
+
+/* bu hissede bir button yaradib onun icine x yazdiririq */
+ var close=document.createElement("button");
+ close.appendChild(document.createTextNode("X"));
+ li.appendChild(close);
+ /* click edende funksiya elave edirik ki silinsin */
+ close.addEventListener("click", del);
+
+/* hemin silinme funksiyasinda classin elave edilmesini burada ayrica yaziriq */
+function del(){
+ li.classList.add("deletee");
+}
+
+}
+
+
+/* Asagidaki funksiyada eger inputun icindeki textin uzunlugu 0 dan ferqlidirse o zaman listi yaratmaq ucun yazdigimiz funksiyani cagirmasina komek edir */
+
+function addListClick(){
+if(inputLength()>0){
+createList();
+}
+}
+
+ /* Bu funksiya da yuxaridaki funksiya ile eynidir tek ferq ondan ibaretdir ki eger sen butona deyil de enetere basarsansa o zaman da list yaradan funksiyani ise salsin, burada event.which === 13 klaviaturadaki enteri gosterir 13 keycode olaraq enteri bildirir */
+
+function addList(event){
+ if(inputLength()>0 && event.which===13){
+ alert("true")
+ }
+}
+
+
+input.addEventListener("keypress",addList);
+
+btn.addEventListener("click",addListClick);
+    </script>
+</body>
+</html> 

@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            width: 100%;
+            height: 1000px;
+            background-color: pink;
+        }
+
+        .anime-left {
+            width: 70%;
+            height: 30vh;
+            border: solid 3px red;
+            text-align: center;
+            padding: 3rem;
+            margin: 3rem auto;
+            animation-name: leftAnime;
+            animation-duration: 4s;
+        }
+
+        @keyframes leftAnime {
+            from {
+                margin-left: -300px;
+            }
+
+            to {
+                margin-left: 0px
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main"></div>
+    <div class="anime-left">
+        Lorem ipsum dolor sit amet djjds ,sdmlkjlfr hjgfygewgfwei kjsksdjfjfejr rfjorejfjreojre kjrnfkjerfnref kjrenfnrefre lknfoireoinfre dsbhjecjkjcw.
+    </div>
+
+    <script>
+var leftDiv=document.querySelector(".anime-left");
+/* Buradaki scroll js eventler sirasinda olan ve scrollu tanidan hazir js eventdir ve addEventListener vasitesile elemente eventi elave edirik */
+window.addEventListener("scroll",animation);
+
+function animation(){
+/* offsetTop js de hazir metoddur hansi ki onun vasitesile elementin brauzerin yuxari hissesinden olan mesafeni tapir */
+ var leftTop=leftDiv.offsetTop;
+ /* pageYOffset ise y oxu boyunca web sehifenin koordinatini tapir ,window cari ekrani bildirir */
+ var windowTop=window.pageYOffset;
+ /* Buradaki sertde deyirik ki eger ki brauzerin cari y ordinati animasiya etdireceyimiz divden evvelki divin olcusunu kecerse bizim animasiyani ise salsin */
+  if(windowTop > leftTop - 1000){
+   leftDiv.classList.add("leftAnime");
+  }
+}
+    </script>
+</body>
+</html>

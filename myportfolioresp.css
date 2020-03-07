@@ -1,0 +1,8 @@
+﻿
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .col-lg-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}

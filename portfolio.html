@@ -1,0 +1,298 @@
+﻿<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="utf-8" />
+    <title>My Portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="portfolio.css" type="text/css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script>
+         $(document).ready(function(){
+  $("#hidden-main-menu").click(function(){
+    $("#hidden-main-list").toggle(200);
+  });
+         });
+               $(document).ready(function(){
+  $("#colorchanger").click(function(){
+    $("#colorchange").toggle(200);
+  });
+               });
+
+        function blue() {
+            document.getElementById("main-colorchange-bg").style.backgroundColor = "#2196f3";
+            document.getElementById("main-colorchange-bg-button-1").style.backgroundColor = "#2196f3";
+             document.getElementById("main-colorchange-bg-button-2").style.backgroundColor = "#2196f3";
+            document.getElementById("main-colorchange-border").style.borderColor = "#2196f3";
+            document.getElementById("main-colorchange-icon").style.color = "#2196f3";
+             document.getElementById("main-colorchange-text").style.color = "#2196f3";
+            document.getElementById("main-colorchange-border").style.color = "#2196f3";
+          
+        }
+          function brown() {
+              document.getElementById("main-colorchange-bg").style.backgroundColor = "#daa520";
+              document.getElementById("main-colorchange-bg-button-1").style.backgroundColor = "#daa520";
+               document.getElementById("main-colorchange-bg-button-2").style.backgroundColor="#daa520";
+            document.getElementById("main-colorchange-border").style.borderColor = "#daa520";
+            document.getElementById("main-colorchange-icon").style.color = "#daa520";
+             document.getElementById("main-colorchange-text").style.color = "#daa520";
+              document.getElementById("main-colorchange-border").style.color = "#daa520";
+              
+        }
+          function green() {
+              document.getElementById("main-colorchange-bg").style.backgroundColor = "#72b626";
+              document.getElementById("main-colorchange-bg-button-1").style.backgroundColor = "#72b626";
+               document.getElementById("main-colorchange-bg-button-2").style.backgroundColor="#72b626";
+            document.getElementById("main-colorchange-border").style.borderColor = "#72b626";
+            document.getElementById("main-colorchange-icon").style.color = "#72b626";
+             document.getElementById("main-colorchange-text").style.color = "#72b626";
+              document.getElementById("main-colorchange-border").style.color = "#72b626";
+           
+        }
+          function violet() {
+              document.getElementById("main-colorchange-bg").style.backgroundColor = "#ff00ff";
+              document.getElementById("main-colorchange-bg-button-1").style.backgroundColor = "#ff00ff";
+              document.getElementById("main-colorchange-bg-button-2").style.backgroundColor="#ff00ff";
+            document.getElementById("main-colorchange-border").style.borderColor = "#ff00ff";
+            document.getElementById("main-colorchange-icon").style.color = "#ff00ff";
+             document.getElementById("main-colorchange-text").style.color = "#ff00ff";
+              document.getElementById("main-colorchange-border").style.color = "#ff00ff";
+            
+        }
+          function red() {
+              document.getElementById("main-colorchange-bg").style.backgroundColor = "#fa5b0f";
+              document.getElementById("main-colorchange-bg-button-1").style.backgroundColor = "#fa5b0f";
+              document.getElementById("main-colorchange-bg-button-2").style.backgroundColor="#fa5b0f";
+            document.getElementById("main-colorchange-border").style.borderColor = "#fa5b0f";
+            document.getElementById("main-colorchange-icon").style.color = "#fa5b0f";
+             document.getElementById("main-colorchange-text").style.color = "#fa5b0f";
+              document.getElementById("main-colorchange-border").style.color = "#fa5b0f";
+             
+        }
+          function lightred() {
+              document.getElementById("main-colorchange-bg").style.backgroundColor = "#ff5d56";
+              document.getElementById("main-colorchange-bg-button-1").style.backgroundColor = "#ff5d56";
+               document.getElementById("main-colorchange-bg-button-2").style.backgroundColor="#ff5d56";
+            document.getElementById("main-colorchange-border").style.borderColor = "#ff5d56";
+            document.getElementById("main-colorchange-icon").style.color = "#ff5d56";
+             document.getElementById("main-colorchange-text").style.color = "#ff5d56";
+              document.getElementById("main-colorchange-border").style.color = "#ff5d56";
+             
+        }
+          function orange() {
+              document.getElementById("main-colorchange-bg").style.backgroundColor = "#ffb400";
+              document.getElementById("main-colorchange-bg-button-1").style.backgroundColor = "#ffb400";
+               document.getElementById("main-colorchange-bg-button-2").style.backgroundColor="#ffb400";
+            document.getElementById("main-colorchange-border").style.borderColor = "#ffb400";
+            document.getElementById("main-colorchange-icon").style.color = "#ffb400";
+             document.getElementById("main-colorchange-text").style.color = "#ffb400";
+              document.getElementById("main-colorchange-border").style.color = "#ffb400";
+             
+        }
+          function lightgreen() {
+              document.getElementById("main-colorchange-bg").style.backgroundColor = "#9acd32";
+              document.getElementById("main-colorchange-bg-button-1").style.backgroundColor = "#9acd32";
+              document.getElementById("main-colorchange-bg-button-2").style.backgroundColor="#9acd32";
+            document.getElementById("main-colorchange-border").style.borderColor = "#9acd32";
+            document.getElementById("main-colorchange-icon").style.color = "#9acd32";
+             document.getElementById("main-colorchange-text").style.color = "#9acd32";
+              document.getElementById("main-colorchange-border").style.color = "#9acd32";
+             
+            }
+
+        var elem = document.documentElement;
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.mozRequestFullScreen) { 
+    elem.mozRequestFullScreen();
+  } else if (elem.webkitRequestFullscreen) { 
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { 
+    elem.msRequestFullscreen();
+  }
+}
+
+function closeFullscreen() {
+  if (document.exitFullscreen) {
+    document.exitFullscreen();
+  } else if (document.mozCancelFullScreen) {
+    document.mozCancelFullScreen();
+  } else if (document.webkitExitFullscreen) {
+    document.webkitExitFullscreen();
+  } else if (document.msExitFullscreen) {
+    document.msExitFullscreen();
+  }
+}
+            
+        
+
+
+
+    </script>
+
+
+</head>
+<body>
+    <div style="display:inline;" class="hamburger-hidden-menu">
+        <i id="hidden-main-menu" style="background-color: rgba(255,255,255,.1);bottom: 270px;left: 20px;position:relative;border:solid 2px transparent;border-radius:50%;padding:18px;color:#eee;font-size:16px;" class='fas fa-bars'></i>
+        <ul id="hidden-main-list" style="list-style-type:none;position:absolute;top: 100px;width: 50%;left: 20px;">
+            <li><a href="file:///C:/Users/User/Desktop/portfolio/portfolio.html"><i class='fas fa-home' style='font-size:16px;color:#eee;'></i><span>HOME</span></a></li>
+            <li><a href=""><i class='fas fa-user' style='font-size:16px;color:#eee;'></i><span>ABOUT</span></a></li>
+            <li><a href=""><i class='fas fa-toolbox' style='font-size:16px;color:#eee;'></i><span>PORTFOLIO</span></a></li>
+            <li><a href=""><i class='fas fa-comment' style='font-size:16px;color:#eee;'></i><span>CONTACT</span></a></li>
+            <li><a href=""><i class='fas fa-envelope-open' style='font-size:16px;color:#eee;'></i><span>BLOG</span></a></li>
+        </ul>
+
+
+
+    </div>
+    <span style="position: absolute;
+    left: 100px;
+    top: 45px;">
+    <button id="main-colorchange-bg-button-1"  style="padding: 10px 33px;
+outline:none;
+    margin: 0 25px 0 0;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 25px;
+    border: solid 1px transparent;
+    background-color: #72b626;" onclick="openFullscreen();">Fullscreen</button>
+
+    <button id="main-colorchange-bg-button-2" style="padding: 10px 33px;
+    margin: 0 25px 0 0;
+    outline:none;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 25px;
+    border: solid 1px transparent;
+    background-color: #72b626;" onclick="closeFullscreen();">ESC</button></span>
+
+
+    <span id="colorchanger" style="border:solid 1px transparent;background-color:#fff;border-radius:5px;position: relative;
+    padding: 20px 0px 10px 0px;bottom: 200px;
+    left: 91.1%;"><i class='fa fa-cog fa-spin' style='font-size:30px;color:#000;padding:5px 10px;align-self:center;'></i></span>
+    <div style="position:absolute;z-index:50;left: 87.3%;
+    bottom: 61%;
+    border-radius: 5px;" id="colorchange">
+        <h4 style="color:#333;font-size:15px;padding: 5px 0;margin: 0 0 10px;">STYLE SWITCHER</h4>
+        <hr style="color:#555;">
+        <ul style="list-style-type: none;display;padding: 0;">
+            <li><img onclick="blue()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/blue.png"></li>
+            <li><img onclick="brown()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/goldenrod.png"></li>
+            <li><img onclick="green()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/green.png"></li>
+            <li><img onclick="violet()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/magenta.png"></li>
+            <li><img onclick="red()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/orange.png"></li>
+            <li><img onclick="lightred()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/red.png"></li>
+            <li><img onclick="orange()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/yellow.png"></li>
+            <li><img onclick="lightgreen()" src="http://slimhamdi.net/istanbul/demos/img/styleswitcher/yellowgreen.png"></li>
+
+
+
+        </ul>
+    </div>
+
+    <div style="top:150px;width:70%;position:relative;transform:translate(40%);top: 200px;right: 250px; " class="main-page">
+        <div class="left-main-page">
+            <img src="https://scontent.fgyd12-1.fna.fbcdn.net/v/t1.0-9/66778504_1111019879108765_5051242703895920640_n.jpg?_nc_cat=110&_nc_ohc=46tZFrOITosAX-GpmxW&_nc_ht=scontent.fgyd12-1.fna&oh=03f484f6cee5a3f47667b00f1e72682a&oe=5ED1144F">
+        </div>
+        <div style="margin-left:5%;align-self:center;" class="right-main-page">
+
+            <h3 style="color:#eee;margin:0px 0px 8px;">HI THERE!</h3>
+            <strong style="margin:19px 0px 10px;"><p style="font-size:42px;display:inline;color:#fff;">I'M</p>
+            
+            <p style="font-size:42px;display:inline;margin-left:20px;color:#72b626;">
+            
+                <a id="main-colorchange-text" href="" style="color:#72b626;text-decoration:none;" class="typewrite" data-period="2000" data-type='[ "MINIRA   AXUNDOVA", "A   DEVELOPER", "A FREELANCER" ]'>
+                    <span class="wrap"></span>
+                </a>
+            </p>
+            
+            
+            </strong>
+            <script>
+                var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+
+            </script>
+
+
+            <p style="color:#eee;font-size:16px;margin:11px 0px 23px;">Hi there! I'm Minira and I am junior Web Developer specializing in creating beautiful, unique  websites and applications that make users' time with a brand more enjoyable. I'm looking forward to growing my programming skills to hopefully develop and inspire a team of my own</p>
+
+            <div id="main-links">
+                <a id="main-colorchange-bg" style="
+        text-decoration:none;
+        padding: 10px 33px;
+        margin: 0 25px 0 0;
+        color: #fff;
+        font-size: 15px;
+        border-radius: 25px;
+        border: solid 1px transparent;" href="file:///C:/Users/User/Desktop/portfolio/portfolioabout.html"><i class='fas fa-user' style='font-size:15px;color:#fff;margin-right:10px;'></i>MORE ABOUT ME</a>
+                <a id="main-colorchange-border" style="  text-decoration:none;
+        background-color: transparent;
+        padding: 10px 33px;
+        color: #72b626;
+        font-size: 15px;
+        border-radius: 25px;
+        border: solid 1px #72b626;" href=""><i id="main-colorchange-icon" class='fas fa-toolbox' style='font-size:15px;color:#72b626;margin-right:10px;'></i>PORTFOLIO</a>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+</html>

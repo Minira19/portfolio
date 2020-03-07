@@ -1,0 +1,108 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 60px 0 54px;
+    text-align: center;
+    width: 80%;
+}
+.contact-title {
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin:0 0 10px;
+    color:#555;
+  
+}
+.icon{
+    color:#72b626;
+}
+.contact-content {
+    font-size:16px;
+    color:#555;
+    margin-left:10px;
+    text-transform: lowercase;
+    font-family: 'open sans';
+    font-weight: 500;
+}
+.left-contact ul li{
+    padding-bottom:25px;
+}
+section{
+    margin:auto;
+    width:70%;
+    display:flex;
+    flex-direction:row;
+}
+.right-contact {
+    width: 70%;
+    margin-left:15%;
+}
+.hovers li {
+    border: solid 0.5px #72b626;
+    width: 35px;
+    height: 35px;
+    line-height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    background: transparent;
+    margin-right: 15px;
+}
+.big-form:focus{
+border-color:#0094ff;
+}
+.hovers li:hover{
+    background-color:#72b626;   
+    transition:0.3s;
+}
+.hovers li:hover i{
+    color:#fff!important;
+}
+
+.fa-comments {
+    top: 54%;
+    left: 40%;
+}
+.colorchanger {
+    position: relative;
+    border: solid 1px #eee;
+    padding: 18px 10px 10px 10px;
+    border-radius: 4px;
+    left: 95%;
+    top: 50px;
+}
+
+    .colorchanger i {
+        font-size: 30px;
+    }
+
+.pallete ul li img {
+    cursor: pointer;
+    margin: 4px 2px;
+    width: 30px;
+    height: 30px;
+}
+
+.pallete ul li {
+    display: inline;
+}
+
+.pallete {
+    padding: 5px;
+    background-color: #fff;
+    width: 11%;
+    text-align: center;
+    font-weight: 600;
+    position: absolute;
+    border: solid 1px #eee;
+    top: 95px;
+    border-radius: 4px;
+    display: none;
+    left: 87.5%;
+}

@@ -1,0 +1,261 @@
+﻿@media only screen and (max-width:767px) {
+    .main-info{
+        display:block;
+    }
+    .info{
+        width:100%;
+        display:block;
+    }
+    .big-pic div {
+        height: 0;
+        border: none;
+        position: inherit;
+        width: 0;
+        left: 0;
+        top: 0;
+    }
+    .big-pic{
+        position:relative;
+        margin-bottom:100%;
+    }
+    .big-pic div img {
+        width: 273px;
+
+        
+        right: 0px; 
+        bottom: 0px; 
+        position:inherit;
+    }
+    .full-info a{
+        width:80%;
+    }
+    #scroll{
+        display:none;
+    }
+    .grid-container{
+        display:block;
+    }
+
+    #talk-bubble-1 img {
+        content: 80%;
+        position: relative;
+        left: 210px;
+    }
+
+    #talk-bubble-2 img {
+        position: relative;
+        left: 150px;
+    }
+
+    #talk-bubble-3 img {
+        position: relative;
+        left: 200px;
+    }
+
+    #talk-bubble-4 img {
+        position: relative;
+        left: 170px;
+    }
+
+    #talk-bubble-5 img {
+        position: relative;
+        left: 240px;
+    }
+
+    #talk-bubble-6 img {
+        position: relative;
+        left: 230px;
+    }
+
+    #talk-bubble-7 img {
+        position: relative;
+        left: 150px;
+    }
+
+    #talk-bubble-8 img {
+        position: relative;
+        left: 200px;
+    }
+
+    #talk-bubble-9 img {
+        position: relative;
+        left: 210px;
+    }
+    #tb-text-1 {
+        left: 68%;
+    }
+
+    #tb-text-2 {
+        left: 52.8%;
+    }
+
+    #tb-text-3 {
+        left: 65.5%;
+    }
+
+    #tb-text-4 {
+        left: 58%;
+    }
+
+    #tb-text-5 {
+        left: 76%;
+    }
+
+    #tb-text-6 {
+        left: 74%;
+    }
+
+    #tb-text-7 {
+        left: 53%;
+    }
+
+    #tb-text-8 {
+        left: 66%;
+    }
+
+    #tb-text-9 {
+        left: 69%;
+    }
+
+
+
+  
+  
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+    header {
+        margin-bottom: 10%;
+    }
+    .big-pic div {
+        height: 500px;
+        position: relative;
+        border: solid 6px #72b626;
+        width: 500px;
+        left: 80px;
+        top: 0px;
+    }
+    .big-pic{
+        margin-bottom:10%;
+    }
+    .main-info{
+        display:block;
+    }
+    .big-pic div img {
+        width: 500px;
+        left: -70px;
+        top: -70px;
+    }
+    .full-info a {
+       justify-content:center;
+    }
+    #talk-bubble-1 img {
+        left: 130px;
+        position: relative;
+    }
+
+    #talk-bubble-2 img {
+        left: 100px;
+        position: relative;
+    }
+
+    #talk-bubble-3 img {
+        left: 120px;
+        position: relative;
+    }
+
+    #talk-bubble-4 img {
+        left: 100px;
+        position: relative;
+    }
+
+    #talk-bubble-5 img {
+        left: 165px;
+        position: relative;
+    }
+
+    #talk-bubble-6 img {
+        left: 130px;
+        position: relative;
+    }
+
+    #talk-bubble-7 img {
+        position: relative;
+        left: 90px;
+    }
+
+    #talk-bubble-8 img {
+        position: relative;
+        left: 130px;
+    }
+
+    #talk-bubble-9 img {
+        position: relative;
+        left: 130px;
+    }
+
+    #tb-text-1 {
+        
+        left: 28%;
+       
+    }
+
+    #tb-text-2 {
+      
+        left: 51%;
+        
+    }
+
+    #tb-text-3 {
+       
+        left: 82%;
+       
+    }
+
+    #tb-text-4 {
+     
+        left: 24%;
+        
+    }
+
+    #tb-text-5 {
+       
+        left: 59.5%;
+        
+    }
+
+    #tb-text-6 {
+        
+        left: 83%;
+    }
+
+    #tb-text-7 {
+      
+        left: 23%;
+       
+    }
+
+    #tb-text-8 {
+       
+        left: 55%;
+      
+    }
+
+    #tb-text-9 {
+      
+        left: 83%;
+       
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
