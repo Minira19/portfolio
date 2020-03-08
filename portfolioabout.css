@@ -37,13 +37,14 @@ header{
     font-weight:650;
     margin-left:20px;
 }
-.border-left{
-    border-left:0;
+.newline{
+    border-left:solid 5px #72b626   ;
+    list-style-type:none;
 }
 .big-pic div {
     height: 400px;
     position: relative;
-    border: solid 6px #72b626; 
+    border: solid 6px #72b626;
     width: 400px;
     left: 110px;
     top: 25px;
@@ -122,48 +123,55 @@ header{
     font-size: 14px;
     background-color: #fff;
 }
-#talk-bubble-1 img{
-    
+#talk-bubble-1 i{
+    color:#72b626;
     left: 75%;
     position: relative;
     z-index:2000;
 }
 
 
-#talk-bubble-2 img {
+#talk-bubble-2 i {
+    color: #72b626;
     left: 58%;
     position: relative;
 }
-#talk-bubble-3 img {
+#talk-bubble-3 i {
+    color: #72b626;
     left: 73%;
     position: relative;
 }
-#talk-bubble-4 img {
+#talk-bubble-4 i {
+    color: #72b626;
     left: 62%;
     position: relative;
 }
-#talk-bubble-5 img {
+#talk-bubble-5 i {
+    color: #72b626;
     left: 85%;
     position: relative;
 }
-#talk-bubble-6 img {
+#talk-bubble-6 i {
+    color: #72b626;
     left: 81%;
     position: relative;
 }
-#talk-bubble-7 img {
+#talk-bubble-7 i {
+    color: #72b626;
     left: 54.5%;
     position: relative;
 }
-#talk-bubble-8 img {
-    
+#talk-bubble-8 i {
+    color: #72b626;
     left: 70%;
     position: relative;
 }
-#talk-bubble-9 img {
+#talk-bubble-9 i {
+    color: #72b626;
     left: 76%;
     position: relative;
 }
-#tb-text-1 {
+.tb-text-1 {
     font-size: 14px;
     color: #72b626;
     position: absolute;
@@ -172,7 +180,7 @@ header{
    
     margin-top: 5px;
 }
-#tb-text-2 {
+.tb-text-2 {
     font-size: 14px;
     color: #72b626;
     position: absolute;
@@ -180,7 +188,7 @@ header{
     font-weight: 600;
     margin-top: 5px;
 }
-#tb-text-3 {
+.tb-text-3 {
     font-size: 14px;
     color: #72b626;
     position: absolute;
@@ -188,7 +196,7 @@ header{
     font-weight: 600;
     margin-top: 5px;
 }
-#tb-text-4 {
+.tb-text-4 {
     font-size: 14px;
     color: #72b626;
     position: absolute;
@@ -196,7 +204,7 @@ header{
     font-weight: 600;
     margin-top: 5px;
 }
-#tb-text-5 {
+.tb-text-5 {
     font-size: 14px;
     color: #72b626;
     position: absolute;
@@ -204,7 +212,7 @@ header{
     font-weight: 600;
     margin-top: 5px;
 }
-#tb-text-6 {
+.tb-text-6 {
     font-size: 14px;
     color: #72b626;
     position: absolute;
@@ -212,7 +220,7 @@ header{
     font-weight: 600;
     margin-top: 5px;
 }
-#tb-text-7 {
+.tb-text-7 {
     font-size: 14px;
     color: #72b626;
     position: absolute;
@@ -220,7 +228,7 @@ header{
     font-weight: 600;
     margin-top: 5px;
 }
-#tb-text-8 {
+.tb-text-8 {
     font-size: 14px;
     color: #72b626;
     position: absolute;
@@ -228,7 +236,7 @@ header{
     font-weight: 600;
     margin-top: 5px;
 }
-#tb-text-9 {
+.tb-text-9 {
     font-size: 14px;
     color: #72b626;
     position: absolute;

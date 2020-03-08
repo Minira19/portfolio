@@ -36,84 +36,84 @@
         display:block;
     }
 
-    #talk-bubble-1 img {
-        content: 80%;
+    #talk-bubble-1 i{
+       
         position: relative;
         left: 210px;
     }
 
-    #talk-bubble-2 img {
+    #talk-bubble-2 i {
         position: relative;
         left: 150px;
     }
 
-    #talk-bubble-3 img {
+    #talk-bubble-3 i {
         position: relative;
         left: 200px;
     }
 
-    #talk-bubble-4 img {
+    #talk-bubble-4 i{
         position: relative;
         left: 170px;
     }
 
-    #talk-bubble-5 img {
+    #talk-bubble-5 i{
         position: relative;
         left: 240px;
     }
 
-    #talk-bubble-6 img {
+    #talk-bubble-6 i{
         position: relative;
         left: 230px;
     }
 
-    #talk-bubble-7 img {
+    #talk-bubble-7 i{
         position: relative;
         left: 150px;
     }
 
-    #talk-bubble-8 img {
+    #talk-bubble-8 i{
         position: relative;
         left: 200px;
     }
 
-    #talk-bubble-9 img {
+    #talk-bubble-9 i {
         position: relative;
         left: 210px;
     }
-    #tb-text-1 {
+    .tb-text-1 {
         left: 68%;
     }
 
-    #tb-text-2 {
+    .tb-text-2 {
         left: 52.8%;
     }
 
-    #tb-text-3 {
+    .tb-text-3 {
         left: 65.5%;
     }
 
-    #tb-text-4 {
+    .tb-text-4 {
         left: 58%;
     }
 
-    #tb-text-5 {
+    .tb-text-5 {
         left: 76%;
     }
 
-    #tb-text-6 {
+    .tb-text-6 {
         left: 74%;
     }
 
-    #tb-text-7 {
+    .tb-text-7 {
         left: 53%;
     }
 
-    #tb-text-8 {
+    .tb-text-8 {
         left: 66%;
     }
 
-    #tb-text-9 {
+    .tb-text-9 {
         left: 69%;
     }
 
@@ -148,99 +148,99 @@
     .full-info a {
        justify-content:center;
     }
-    #talk-bubble-1 img {
+    #talk-bubble-1 i {
         left: 130px;
         position: relative;
     }
 
-    #talk-bubble-2 img {
+    #talk-bubble-2 i {
         left: 100px;
         position: relative;
     }
 
-    #talk-bubble-3 img {
+    #talk-bubble-3 i {
         left: 120px;
         position: relative;
     }
 
-    #talk-bubble-4 img {
+    #talk-bubble-4 i {
         left: 100px;
         position: relative;
     }
 
-    #talk-bubble-5 img {
+    #talk-bubble-5 i {
         left: 165px;
         position: relative;
     }
 
-    #talk-bubble-6 img {
+    #talk-bubble-6 i{
         left: 130px;
         position: relative;
     }
 
-    #talk-bubble-7 img {
+    #talk-bubble-7 i{
         position: relative;
         left: 90px;
     }
 
-    #talk-bubble-8 img {
+    #talk-bubble-8 i {
         position: relative;
         left: 130px;
     }
 
-    #talk-bubble-9 img {
+    #talk-bubble-9 i{
         position: relative;
         left: 130px;
     }
 
-    #tb-text-1 {
+    .tb-text-1 {
         
         left: 28%;
        
     }
 
-    #tb-text-2 {
+    .tb-text-2 {
       
         left: 51%;
         
     }
 
-    #tb-text-3 {
+    .tb-text-3 {
        
         left: 82%;
        
     }
 
-    #tb-text-4 {
+    .tb-text-4 {
      
         left: 24%;
         
     }
 
-    #tb-text-5 {
+    .tb-text-5 {
        
         left: 59.5%;
         
     }
 
-    #tb-text-6 {
+    .tb-text-6 {
         
         left: 83%;
     }
 
-    #tb-text-7 {
+    .tb-text-7 {
       
         left: 23%;
        
     }
 
-    #tb-text-8 {
+    .tb-text-8 {
        
         left: 55%;
       
     }
 
-    #tb-text-9 {
+    .tb-text-9 {
       
         left: 83%;
        
